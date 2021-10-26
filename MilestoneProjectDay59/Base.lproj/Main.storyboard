@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--View Controller-->
         <scene sceneID="cBK-UX-Bjj">
             <objects>
-                <tableViewController id="PMi-Pb-xDJ" sceneMemberID="viewController">
+                <tableViewController id="PMi-Pb-xDJ" customClass="ViewController" customModule="MilestoneProjectDay59" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rgd-Kd-Jci">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="806" y="-80"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="kf5-1Y-Xn8">
             <objects>
-                <viewController storyboardIdentifier="Detail" id="e6h-R2-orF" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Detail" id="e6h-R2-orF" customClass="DetailViewController" customModule="MilestoneProjectDay59" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OI8-C6-TAd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
