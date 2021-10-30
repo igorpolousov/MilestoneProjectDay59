@@ -35,6 +35,11 @@ class ViewController: UITableViewController {
         cell.detailTextLabel?.text = countries1.language
         return cell
     }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? ViewController {
+            
+        }
+    }
     
     func parse(json: Data) {
         let decoder = JSONDecoder()

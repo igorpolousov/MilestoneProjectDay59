@@ -9,6 +9,9 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var countryDescription: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

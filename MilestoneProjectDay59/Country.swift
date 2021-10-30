@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 struct Country: Codable {
     var countryName: String
     var capitalName: String
