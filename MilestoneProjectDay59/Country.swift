@@ -9,6 +9,7 @@ import Foundation
 
 
 struct Country: Codable {
+    var image: String
     var countryName: String
     var capitalName: String
     var language: String
