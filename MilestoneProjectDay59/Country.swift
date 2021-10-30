@@ -8,9 +8,10 @@
 import Foundation
 
 struct Country: Codable {
-    var capitalImage: String
+    var country: String
     var capital: String
     var size: String
     var population: String
     var currency: String
+    var drivingSide: String
 }
