@@ -1,0 +1,45 @@
+{
+  "results" :
+  [
+    {
+        "image": "Germany",
+        "countryName" : "Germany",
+        "capitalName" : "Berlin",
+        "language": "German",
+        "size" : "357 022 sq km",
+        "population" : "83 190 556",
+        "currency" : "Euro",
+        "drivingSide" : "right"
+    },
+    {
+        "image": "Canada",
+        "countryName" : "Canada",
+        "capitalName" : "Ottawa",
+        "language": "English, French",
+        "size" : "9 984 670 sq km",
+        "population" : "38 246 108",
+        "currency" : "Canadian dollar",
+        "drivingSide" : "right"
+    },
+    {
+        "image": "UnitedStates",
+        "countryName" : "USA",
+        "capitalName" : "Washington",
+        "language": "English, Spanish",
+        "size" : "9 833 520 sq km",
+        "population" : "331 449 281",
+        "currency" : "US dollar",
+        "drivingSide" : "right"
+    },
+    {
+        "image": "Argentina",
+        "countryName" : "Argentina",
+        "capitalName" : "Buenos Aires",
+        "language": "Spanish",
+        "size" : "2 780 400 sq km",
+        "population" : "45 605 826",
+        "currency" : "Argentine peso",
+        "drivingSide" : "right"
+    }
+  ]
+}
